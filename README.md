@@ -21,7 +21,7 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/youtube-video-notes-generator.git
+   git clone https://github.com/sriramkrish68/notes-from-youtube-video.git
    cd youtube-video-notes-generator
    ```
 
