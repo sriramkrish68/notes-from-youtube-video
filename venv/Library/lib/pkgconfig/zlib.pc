@@ -1,0 +1,13 @@
+prefix=D:/youtube_notes_maker/venv/Library
+exec_prefix=D:/youtube_notes_maker/venv/Library
+libdir=D:/youtube_notes_maker/venv/Library/lib
+sharedlibdir=D:/youtube_notes_maker/venv/Library/lib
+includedir=D:/youtube_notes_maker/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
