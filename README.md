@@ -98,7 +98,10 @@ The application relies on the following Python packages:
 
 Here’s how the summary and additional features might look:
 
-![Page Screenshots](https://drive.google.com/file/d/1oeVFzROk3xODJ6upN8Xs5FToB5IDB_EX/view?usp=sharing)
+![Page Screens![Screenshot 11](https://github.com/user-attachments/assets/a5f5ee1c-57d8-4e9c-ac4a-9b4abe7f4a48)![Screenshot 12](https://github.com/user-attachments/assets/3c943120-2bc2-400b-b662-4f87b5acd5e2)
+
+hots](![Screenshot 13](https://github.com/user-attachments/assets/3724e46e-e381-4abd-bc39-135a3bfaf055)
+)
 
 ## 🔧 Troubleshooting
 
