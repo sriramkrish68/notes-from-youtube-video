@@ -98,7 +98,7 @@ The application relies on the following Python packages:
 
 Here’s how the summary and additional features might look:
 
-![Example Screenshot](screenshot.png)
+![Page Screenshots](https://drive.google.com/file/d/1oeVFzROk3xODJ6upN8Xs5FToB5IDB_EX/view?usp=sharing)
 
 ## 🔧 Troubleshooting
 
