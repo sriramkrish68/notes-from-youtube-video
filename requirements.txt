@@ -1,5 +1,9 @@
-youtube_transcript_api
 streamlit
-google-generativeai
 python-dotenv
-pathlib
+youtube-transcript-api
+google-api-python-client
+google-generativeai
+textblob
+scikit-learn
+matplotlib
+wordcloud
