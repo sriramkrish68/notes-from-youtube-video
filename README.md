@@ -1,64 +1,118 @@
 
-## YouTube Video Notes Generator
 
-### Generate concise and informative notes from any YouTube video transcript using Python and the Gemini API.
+# 📹 YouTube Notes Maker and Video ANAlyzer
 
+Welcome to the **YouTube Notes Maker** project! This tool enables you to extract and summarize YouTube video transcripts, analyze sentiments, identify key topics, and highlight important moments from videos. It also provides downloadable summaries and visualizations for a comprehensive overview of the video content.
 
-### 📜 Project Overview
+## 🛠️ Features
 
-YouTube Video Notes Generator! This project aims to simplify the process of extracting and summarizing transcripts from YouTube videos, providing users with concise and informative notes. Leveraging the power of the Gemini API, this tool transforms lengthy video transcripts into easy-to-read summaries.
+- **🎬 Video Transcript Extraction**: Retrieve the transcript of any YouTube video using its URL.
+- **✍️ Summarization**: Get a detailed summary of the video transcript with customizable length (Short, Medium, Long).
+- **📊 Sentiment Analysis**: Analyze the overall sentiment of the transcript to understand the tone of the video.
+- **🗂️ Topic Modeling**: Identify and display the main topics discussed in the video.
+- **⏰ Key Moments**: Highlight important timestamps and key moments from the video.
+- **🔑 Keyword Extraction**: Extract and display significant keywords from the transcript.
+- **🌟 Word Cloud Visualization**: Generate and visualize a word cloud from the transcript.
+- **📄 PDF and Text Download**: Download the summary, word cloud, and other details in PDF and text formats.
 
-### ✨ Features
+## 🚀 Getting Started
 
-- **Automatic Transcript Extraction**: Fetch transcripts from YouTube videos effortlessly.
-- **Summarization**: Generate concise and informative notes using the Gemini API.
-- **User-Friendly**: Easy-to-use interface for quick and efficient notes generation.
-- **Customizable**: Adjust summarization settings to tailor the output to your needs.
+### 📋 Prerequisites
 
-### 🛠️ Installation
+Before running the application, ensure you have the following:
 
-Follow these steps to set up the project on your local machine:
+- Python 3.x installed
+- Required Python packages (listed below)
+- YouTube Data API v3 key
+- Google Gemini API key
 
-1. **Clone the Repository**
+### 💻 Installation
+
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/sriramkrish68/notes-from-youtube-video.git
-   cd youtube-video-notes-generator
+   cd youtube-notes-maker
    ```
 
-2. **Create and Activate a Virtual Environment**
+2. **Create a Virtual Environment:**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
-3. **Install Dependencies**
+3. **Activate the Virtual Environment:**
+   - On Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set Up Your Gemini API Key**
-   - Obtain your API key from the [Gemini API](https://gemini.com/api) and set it as an environment variable:
-     ```bash
-     export GEMINI_API_KEY='your_gemini_api_key'
-     ```
-
-### 🚀 Usage
-
-Once you have set up the project, you can start generating notes from YouTube video transcripts.
-
-1. **Run the Script**
-   ```bash
-   python main.py --video_id <YouTube Video ID>
+5. **Set Up Environment Variables:**
+   Create a `.env` file in the root directory and add your API keys:
+   ```env
+   GOOGLE_API_KEY=your_google_api_key
+   YOUTUBE_API_KEY=your_youtube_api_key
    ```
 
-   Replace `<YouTube Video ID>` with the ID of the YouTube video you want to summarize.
+### ⚙️ Usage
 
+1. **Run the Application:**
+   ```bash
+   streamlit run app.py
+   ```
 
+2. **Interact with the App:**
+   - Enter a YouTube video link to get started.
+   - Select the desired summary length.
+   - Click "Get Detailed Notes" to generate and view the summary, sentiment analysis, topic modeling, key moments, keywords, and word cloud.
 
+### 📝 Download Options
 
+- **Download as PDF**: Get a detailed PDF summary of the video.
+- **Download as Text**: Obtain a plain text summary.
+- **Download Word Cloud**: Save the word cloud image.
 
+## 📦 Dependencies
 
+The application relies on the following Python packages:
 
+- `streamlit` - For building the web interface
+- `dotenv` - For loading environment variables
+- `google-api-python-client` - For YouTube Data API integration
+- `google-generativeai` - For Google Gemini API integration
+- `youtube-transcript-api` - For extracting YouTube transcripts
+- `textblob` - For sentiment analysis
+- `sklearn` - For topic modeling and keyword extraction
+- `wordcloud` - For generating word clouds
+- `fpdf` - For PDF generation
+- `matplotlib` - For word cloud visualization
 
-Try Demo here Deployment link :
-[Demo link](https://notes-from-youtube-video-qu65aw8wfb2vcqkaawnoyp.streamlit.app/)
+### 🖥️ Example
+
+Here’s how the summary and additional features might look:
+
+![Example Screenshot](screenshot.png)
+
+## 🔧 Troubleshooting
+
+- **Permission Error on Windows**: Ensure that files are properly closed before deletion. Restart the app or your system if you encounter file access issues.
+- **Module Not Found**: Install missing packages using `pip install <package_name>`.
+
+## 📫 Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to adjust the content to match your exact setup and preferences.
