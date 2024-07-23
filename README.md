@@ -1,6 +1,6 @@
 
 
-# 📹 YouTube Notes Maker and Video ANAlyzer
+# 📹 YouTube Notes Maker and Video Analyzer
 
 Welcome to the **YouTube Notes Maker** project! This tool enables you to extract and summarize YouTube video transcripts, analyze sentiments, identify key topics, and highlight important moments from videos. It also provides downloadable summaries and visualizations for a comprehensive overview of the video content.
 
