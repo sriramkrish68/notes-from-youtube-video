@@ -1,9 +1,12 @@
+
 streamlit
 python-dotenv
 youtube-transcript-api
-google-api-python-client
 google-generativeai
 textblob
 scikit-learn
-matplotlib
 wordcloud
+fpdf
+matplotlib
+sklearn
+requests
