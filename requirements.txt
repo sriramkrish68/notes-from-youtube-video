@@ -8,5 +8,4 @@ scikit-learn
 wordcloud
 fpdf
 matplotlib
-sklearn
 requests
