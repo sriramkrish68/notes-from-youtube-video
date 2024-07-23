@@ -104,15 +104,3 @@ Here’s how the summary and additional features might look:
 
 - **Permission Error on Windows**: Ensure that files are properly closed before deletion. Restart the app or your system if you encounter file access issues.
 - **Module Not Found**: Install missing packages using `pip install <package_name>`.
-
-## 📫 Contributing
-
-Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust the content to match your exact setup and preferences.
