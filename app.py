@@ -73,6 +73,7 @@
 #         st.write(summary)
 
 
+
 import streamlit as st
 from dotenv import load_dotenv
 import os
@@ -208,6 +209,32 @@ def convert_html_to_pdf(html_content):
 
 # Streamlit UI
 st.title("YouTube Transcript to Detailed Notes Converter")
+
+# Sidebar with background image and empty
+# Sidebar with background image and description
+sidebar_bg_path = "ybg1.jpeg"
+
+if not os.path.exists(sidebar_bg_path):
+    st.error(f"Background image not found at {sidebar_bg_path}")
+else:
+    sidebar_bg_ext = "jpeg"
+    with open(sidebar_bg_path, "rb") as image_file:
+        sidebar_bg_base64 = base64.b64encode(image_file.read()).decode()
+
+# Instructions in the main content area
+st.markdown("""
+    ### Instructions
+
+    **Welcome to the YouTube Notes Tool!**
+
+    This tool converts YouTube video transcripts into detailed notes. Here’s how to use it:
+
+    1. **Enter the YouTube video link** in the input box below.
+    2. **Select the desired summary length**: Short, Medium, or Long.
+    3. **Click "Get Detailed Notes"** to generate the summary and additional insights.
+
+    **Sample YouTube Link:** [https://www.youtube.com/watch?v=dQw4w9WgXcQ](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+""")
 
 youtube_link = st.text_input("Enter YouTube Video Link:")
 
