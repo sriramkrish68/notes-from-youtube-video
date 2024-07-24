@@ -1,4 +1,3 @@
-
 streamlit
 python-dotenv
 youtube-transcript-api
@@ -9,3 +8,11 @@ wordcloud
 fpdf
 matplotlib
 requests
+nltk
+spacy
+gensim
+PyPDF2
+pdfplumber
+reportlab
+beautifulsoup4
+lxml
